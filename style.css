@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Gabarito:wght@500;600;700;800;900&family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300;400;500;600&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Gabarito:wght@500;600;700;800;900&family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300;400;500;600&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&family=Russo+One&display=swap');
+
+.active{
+    color:#F2C94C;
+} 
+.activeM{
+color: #F2C94C;
+}
+.activeC{
+color: #F2C94C;
+}
+body{
+background-color: #1b1b1b;
+overflow-x: hidden;
+}
+header{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+}
+nav ul {
+list-style: none;
+display: flex;
+align-items: center;
+}
+nav ul li {
+margin-right: 50px;
+}
+nav ul li a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+font-size: 20px;
+font-family: 'DM Sans', sans-serif;
+}
+
+.logo h3 {
+margin: 0;
+font-size: 24px;
+color: white; 
+font-family: 'DM Sans', sans-serif;
+}
+
+.home{
+height: 100vh;
+width: 100%;
+background: url(Black\ and\ Yellow\ Restaurant\ \ &\ Fast\ Food\ Facebook\ Cover.png);
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.text{
+margin-bottom: 7%;
+}
+section h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 10px;
+}
+.text-home{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 3px;
+
+}
+section button{
+    background-color: rgb(220, 131, 16);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin: 15px 140px;
+    margin-top: 25px;
+    border: none;
+}
+.img1 h3{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.img1 img{
+    width: 50%;
+    border-radius: 20px;
+}
+.img2 img{
+    margin-top: 20px;
+    height: 500px;
+    border-radius: 20px;
+}
+.img2 h3{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.home-slid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    background: transparent;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid;
+    color:  rgb(220, 131, 16);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aboutus */
+
+.aboutPosition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.textUS {
+    margin-bottom: 20px;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.rect {
+    height: 4px;
+    width: 500px;
+    background-color: #F2C94C;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.textP {
+    margin-top: 17px;
+    width: 100%; 
+    font-size: 23px;
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+}
+
+.about {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.imgRest {
+    width: 420px; 
+    height: 650px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.btnRead{
+    background: transparent;
+    width: 170px;
+    height: 80px;
+    font-size: 20px;
+    border: 2px solid;
+    color:  rgb(220, 131, 16);
+    margin: 20px 0 60px;
+    cursor: pointer;
+}
+
+
+
+/* MENU */
+
+.backMenu{
+    background: url(backmenu.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.menuPosition {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 83vh;
+}
+.menuPosition .menu1{
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    letter-spacing: 1px;
+}
+.menuPosition .menu1 > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 10px
+}
+.menuPosition .menu1 > div > p{
+    color: rgb(7, 4, 0);
+    background: #F2C94C;
+    border-radius: 100px;
+    padding: 18px 12px;
+    
+}
+.menuPosition .menu1 > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menuPosition .menu1 .description{
+    font-size: 18px;
+}
+
+.menu1 h4{
+    font-size: 50px;
+    color: #f5b155;
+    margin-top: 120px;
+} 
+
+/* contact */
+
+.map p{
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+}
+.map{
+margin-left: 500px;
+margin-top: 80px;
+}
+
+.contact {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #999595;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-left: 190px;
+    
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #030303;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: #dddbdb;
+    border-radius: 4px;
+    margin-right: 500px;
+}
+.form-group-btn button{
+color: #ffffff;
+border-radius: 10px;
+width: 150px;
+background-color: #dfaa0a;
+}
+.positionMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+/* footer */
+
+footer{
+    height: 90px;
+    width: 100%;
+    background: url(footer.png);
+    background-size: cover;
+    background-position: center;
+}
+.icon > div{
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+} 
+.copyright{
+    color: #ffffff;
+    font-size: 20px;
+}
+i{
+    margin: 10px;
+    background-color: #030303;
+    width: 32px;
+    height: 30px;
+    border-radius: 30px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
