@@ -84,6 +84,7 @@ section button{
     margin: 15px 190px;
     margin-top: 25px;
     border: none;
+    cursor: pointer;
 }
 
 section button:hover{
@@ -187,8 +188,6 @@ section button:hover{
     cursor: pointer;
 }
 
-
-
 /* MENU */
 
 .backMenu{
@@ -257,7 +256,6 @@ margin-top: 80px;
     background-color: #999595;
     border-top-right-radius: 80px;
     border-bottom-right-radius: 80px;
-    
 }
 
 .contact h2 {
@@ -305,6 +303,12 @@ background-color: #dfaa0a;
     justify-content: space-around;
     align-items: center;
     width: 70%;
+}
+
+iframe{
+    filter:invert(100%);
+    width: 500px;
+    height:510px;
 }
 
 /* footer */
