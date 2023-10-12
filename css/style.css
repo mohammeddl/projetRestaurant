@@ -175,9 +175,10 @@ section button:hover{
 
 .imgRest {
     width: 420px; 
-    height: 650px;
+    height: 680px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    
 }
 .btnRead{
     background: transparent;
