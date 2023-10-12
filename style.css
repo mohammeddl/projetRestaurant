@@ -127,11 +127,13 @@ section button:hover{
     color:  rgb(220, 131, 16);
     margin-top: 20px;
     cursor: pointer;
+    
 }
 .btn-more{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 /* aboutus */
