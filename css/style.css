@@ -52,7 +52,7 @@ font-family: 'DM Sans', sans-serif;
 .home{
 height: 100vh;
 width: 100%;
-background: url(Black\ and\ Yellow\ Restaurant\ \ &\ Fast\ Food\ Facebook\ Cover.png);
+background: url(/img/Black\ and\ Yellow\ Restaurant\ \ &\ Fast\ Food\ Facebook\ Cover.png);
 background-size: cover;
 background-position: center;
 display: flex;
@@ -193,7 +193,7 @@ section button:hover{
 /* MENU */
 
 .backMenu{
-    background: url(backmenu.png);
+    background: url(/img/backmenu.png);
     background-size: cover;
     background-position: center;
 }
@@ -318,7 +318,7 @@ iframe{
 footer{
     height: 90px;
     width: 100%;
-    background: url(footer.png);
+    background: url(/img/footer.png);
     background-size: cover;
     background-position: center;
 }
