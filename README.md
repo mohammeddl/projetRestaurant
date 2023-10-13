@@ -1,6 +1,6 @@
 # projetFastFood
 
-Welcome to the README for FAST FOOD wepsite
+Welcome to the README for FAST FOOD website
 
 ## Table of Contents
 1. Project Description
