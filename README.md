@@ -12,7 +12,7 @@ Welcome to the MinellasDiner restaurant website. This website is designed to pro
 - **Home Page**: Provides an introduction to our restaurant and highlights our featured dishes.
 - **Contact Page**: Allows users to view our location on a map and send us messages through a contact form.
 - **menu.html** - This page is for displaying your menu. It's divided into different sections for fast food and sandwiches.
--**aboutUs.html** - This page provides information about your restaurant. It includes details about your business and a "Read More" button for more information. The footer is the same as in the homepage.
+**aboutUs.html** - This page provides information about your restaurant. It includes details about your business and a "Read More" button for more information. The footer is the same as in the homepage.
 
 ## File Structure
 
@@ -24,3 +24,5 @@ The project's file structure is organized as follows:
 - `contact.html`: The contact page with a map and contact form.
 - `css/`: Directory containing the CSS styles for the website.
 - `img/`: Directory for images used on the website.
+
+-**maquette** prototype figma: https://www.figma.com/proto/ESQdNvhfTd02RzLYpg7qau/Pizza-Restaurant-Web-Design?type=design&node-id=147-471&t=TKtc3yilAZiU5hHF-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=147%3A471&hide-ui=1
